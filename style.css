@@ -3,6 +3,41 @@
     --carolina-blue: #009eddff;
 }
 
+.complete-screen{
+    height: 1vh;
+}
+
 .bg-gunmental{
     background: var(--gunmetal);
+}
+
+.bg-image-main{
+    background: url("assets/img/mainBG.jpg");
+}
+.p-9{
+    padding: 9rem!important;
+    padding-bottom: 2rem!important;
+}
+
+h1{
+    font-size: 5rem;
+    letter-spacing: .5rem;
+}
+
+hr{
+    margin-top: 9rem;
+    margin-bottom: .2rem;
+}
+
+a.btn{
+    width: 60%;
+    text-align: start;
+}
+
+a.tel{
+    display: block;
+    color: var(--carolina-blue);
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
 }
