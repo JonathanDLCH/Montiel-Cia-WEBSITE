@@ -13,14 +13,21 @@
 
 .bg-image-main{
     background: url("assets/img/mainBG.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
-.p-9{
-    padding: 9rem!important;
+.p-6{
+    padding: 6rem!important;
     padding-bottom: 2rem!important;
 }
 
+.col-lg-4{
+    text-align: center;
+}
+
 h1{
-    font-size: 5rem;
+    font-size: 3.5rem;
     letter-spacing: .5rem;
 }
 
@@ -40,4 +47,18 @@ a.tel{
     text-decoration: none;
     width: 100%;
     text-align: center;
+}
+
+@media only screen and (max-width: 1200px){
+    h1{
+        font-size: 4rem;
+        letter-spacing: .5rem;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    h1{
+        font-size: 2rem;
+        letter-spacing: .5rem;
+    }
 }
