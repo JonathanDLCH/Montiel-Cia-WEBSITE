@@ -12,7 +12,7 @@
 }
 
 .bg-image-main{
-    background: url("assets/img/mainBG.jpg");
+    background: url("../img/mainBG.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -60,5 +60,14 @@ a.tel{
     h1{
         font-size: 2rem;
         letter-spacing: .5rem;
+    }
+    
+    .col-7{
+        width: 100% !important;
+        text-align: center;
+    }
+
+    .p-6{
+        padding: 15px !important;
     }
 }
